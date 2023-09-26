@@ -8,7 +8,7 @@ on:
     inputs:
       workoutsToDownload:
         type: number
-        default: "8"
+        default: "6"
   schedule:
     - cron: '30 11, * * *'
     - cron: '30 12, * * *'
@@ -17,12 +17,6 @@ on:
     - cron: '30 15, * * *'
     - cron: '30 16, * * *'
     - cron: '30 17, * * *'
-    - cron: '30 18, * * *'
-    - cron: '30 19, * * *'
-    - cron: '30 20, * * *'
-    - cron: '30 21, * * *'
-    - cron: '30 22, * * *'
-    - cron: '30 23, * * *'
 
 jobs:
   sync:
