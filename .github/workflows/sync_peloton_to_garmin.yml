@@ -59,7 +59,7 @@ jobs:
             "ExcludeWorkoutTypes": [ "meditation" ],
           },
           "Garmin": {
-            "Upload": true,
+            "Upload": false,
             "FormatToUpload": "fit",
             "UploadStrategy": 2
           },
