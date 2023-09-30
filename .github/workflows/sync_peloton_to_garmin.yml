@@ -9,6 +9,9 @@ on:
       workoutsToDownload:
         type: number
         default: "6"
+        saveLocalCopy:
+        type: boolean
+        default: false
   schedule:
     - cron: '30 11, * * *'
     - cron: '30 12, * * *'
