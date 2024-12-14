@@ -1,5 +1,4 @@
 # This is a workflow that will automatically sync your Peloton rides with Garmin
-
 name: Sync workflow
 
 # Controls when the action will run.
@@ -12,6 +11,7 @@ on:
       saveLocalCopy:
         type: boolean
         default: false
+        
  schedule:
     - cron: '30 7 * * *'
     - cron: '30 8 * * *'
@@ -24,6 +24,7 @@ on:
     - cron: '30 15, * * *'
     - cron: '30 16, * * *'
     - cron: '30 17, * * *'
+    
 jobs:
   sync:
     runs-on: ubuntu-latest
