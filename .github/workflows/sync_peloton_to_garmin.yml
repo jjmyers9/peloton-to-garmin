@@ -7,7 +7,7 @@ on:
     inputs:
       workoutsToDownload:
         type: number
-        default: "5"
+        default: "25"
       saveLocalCopy:
         type: boolean
         default: false
