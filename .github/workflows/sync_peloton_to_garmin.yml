@@ -14,14 +14,7 @@ on:
         default: false
   schedule:
         - cron: '0 9 * * *'
-        - cron: '0 10 * * *'
-        - cron: '0 11 * * *'
-        - cron: '0 12 * * *'
-        - cron: '0 15 * * *'
-        - cron: '0 16 * * *'
-        - cron: '0 17 * * *'
-        - cron: '0 20 * * *'
-        - cron: '0 21 * * *'
+      
 
 env:
   OUTPUT_DIR: /app/output
